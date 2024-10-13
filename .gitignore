@@ -7,4 +7,6 @@
 .~lock*
 *.ipynb_checkpoints/
 financial_records/
+analysis_nb/
+other_data/
 */__pycache__/
