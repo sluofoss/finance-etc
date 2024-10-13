@@ -18,14 +18,9 @@ def buy_amortized(loan_amount,interest_rate, years=30,period='WEEKLY'):
         'FORTNIGHTLY':14,
         'MONTHLY':30.4375
     }
-    #n = (years*365.25/PERIOD[period])
     n = years*52
     r = interest_rate/n
     print('info:',interest_rate,r,r*n,n)
     D = ((1+r)**n-1)/(r*(1+r)**n)
-    #D_2 = n*(n+interest_rate-1)/(interest_rate+interest_rate**2)
-    #R = interest_rate
-    #D_3 = (n+R-1)/(r+r*R)
-    #print(n,r,D,D_2,D_3)
     total_payment = L = loan_amount*(r*(1+r)**n)/((1+r)**n-1)
     return total_payment
