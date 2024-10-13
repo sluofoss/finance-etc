@@ -1,0 +1,9 @@
+*.csv
+*.txt
+*.ipynb
+*.zip
+*.pdf
+*.log
+.~lock*
+*.ipynb_checkpoints/
+financial_records/
