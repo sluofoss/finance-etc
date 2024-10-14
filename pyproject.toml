@@ -5,7 +5,11 @@ description = "Add your description here"
 authors = [
     { name = "sluo", email = "41530060+lu0x1a0@users.noreply.github.com" }
 ]
-dependencies = []
+dependencies = [
+    "numpy",
+    "pandas",
+    "duckdb",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
@@ -15,7 +19,10 @@ build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
-dev-dependencies = []
+dev-dependencies = [
+    "jupyterlab>=4.1",
+    "seaborn",
+]
 
 [tool.hatch.metadata]
 allow-direct-references = true
