@@ -1,0 +1,7 @@
+jupyterlab
+#lckr_jupyterlab_variableinspector
+numpy
+pandas
+duckdb
+fastparquet
+seaborn
