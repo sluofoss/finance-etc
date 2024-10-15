@@ -10,13 +10,13 @@
 #   universal: false
 
 -e file:.
-duckdb==1.1.1
-    # via personal-spending
+duckdb==1.1.2
+    # via finance-etc
 numpy==2.1.2
+    # via finance-etc
     # via pandas
-    # via personal-spending
 pandas==2.2.3
-    # via personal-spending
+    # via finance-etc
 python-dateutil==2.9.0.post0
     # via pandas
 pytz==2024.2

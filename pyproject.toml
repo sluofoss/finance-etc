@@ -1,9 +1,9 @@
 [project]
-name = "personal-spending"
+name = "finance-etc"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
-    { name = "sluo", email = "41530060+lu0x1a0@users.noreply.github.com" }
+    { name = "sluo", email = "41530060+sluofoss@users.noreply.github.com" }
 ]
 dependencies = [
     "numpy",
@@ -28,4 +28,4 @@ dev-dependencies = [
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/personal_spending"]
+packages = ["src/finance_etc"]
