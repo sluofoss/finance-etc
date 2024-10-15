@@ -4,6 +4,7 @@
 *.zip
 *.pdf
 *.log
+*.pyc
 .~lock*
 *.ipynb_checkpoints/
 financial_records/
